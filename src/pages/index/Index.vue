@@ -1,9 +1,5 @@
 <template>
-  <view class="content">
-    <view class="text-area">
-      <button type="primary" @click="jump">{{ title }}</button>
-    </view>
-  </view>
+  <button type="primary" @click="jump">{{ title }}</button>
 </template>
 
 <script setup lang="ts">
