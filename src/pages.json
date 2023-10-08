@@ -6,19 +6,34 @@
     }
   },
   "pages": [
-    {
-      "path": "pages/index/Index"
-    },
-    {
-      "path": "pages/setting/Setting"
-    }
+    { "path": "pages/index/Index" },
+    { "path": "pages/setting/Setting" },
+    { "path": "pages/billing-detail/BillingDetail" }
   ],
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/Index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png"
+      },
+      {
+        "pagePath": "pages/setting/Setting",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-active.png"
+      },
+      {
+        "pagePath": "pages/billing-detail/BillingDetail",
+        "iconPath": "static/images/user.png",
+        "selectedIconPath": "static/images/user-active.png"
+      }
+    ]
+  },
   "globalStyle": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#00c4b3",
     "backgroundColor": "#F8F8F8"
-    // 取消导航栏
     // "navigationStyle": "custom",
     // "app-plus": {
     //   "scrollIndicator": false
